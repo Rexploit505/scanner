@@ -20,11 +20,11 @@ It can:
 ## 🛠 Installation
 
 ### Clone the repo
-```bash
+```
 git clone https://github.com/Rexploit505/scanner.py.git
 cd scanner.py
 
-
+```
 ## Install dependencies
 pip install -r requirements.txt
 
@@ -32,16 +32,18 @@ pip install -r requirements.txt
 python scanner.py -u "<target_url>" [options]
 
 
-## Options
-| Option          | Description                                                                    |
-| --------------- | ------------------------------------------------------------------------------ |
-| -u or --url | Target URL with vulnerable parameter (e.g., http://target.com/page.php?id=1) |
-| --check       | Check if the parameter is vulnerable to SQL Injection                          |
-| --columns     | Detect number of
-columns                                                       |
-| --union       | Test UNION SELECT injection                                                    |
-| --dump-db     | Dump current database name                                                     |
-| --dump-all    | Dump all available database names                                              |
+## Options 
+⚙️ Opsi yang Tersedia
+
+| Option         | Deskripsi                                                                           |
+| -------------- | ----------------------------------------------------------------------------------- |
+| `-u` / `--url` | Target URL dengan parameter yang rentan (contoh: `http://target.com/page.php?id=1`) |
+| `--check`      | Mengecek apakah parameter rentan terhadap SQL Injection                             |
+| `--columns`    | Mendeteksi jumlah kolom dalam query                                                 |
+| `--union`      | Menguji injeksi menggunakan UNION SELECT                                            |
+| `--dump-db`    | Menampilkan nama database saat ini                                                  |
+| `--dump-all`   | Menampilkan semua nama database yang tersedia                                       |
+
 
 
 ## Example
