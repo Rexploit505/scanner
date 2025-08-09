@@ -140,5 +140,5 @@ def main():
 
     print("\n[✓] Selesai. Hasil dump tersimpan di 'results.txt'")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
